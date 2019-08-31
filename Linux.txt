@@ -1,0 +1,35 @@
+Formação DevOps Alura
+
+Assuntos abordados:
+- pwd
+    mostra o diretorio que está "logada"
+
+- ls
+    retorna o conteudo do diretório atual
+
+- echo "bem vindo"
+    o terminal responde com o texto informado após o comando echo (repete)
+
+- echo "bem vindo" > arquivo.txt
+    o terminal grava no arquivo.txt a informação após comando echo
+
+- cat arquivo
+    visualiza conteudo do arquivo
+
+- ls -l
+    mostra detalhes dos componentes listados
+
+- ls -la
+    mostra detalhes dos componentes listados + detalhes de arquivos ocultos
+
+- man ls
+    ajuda
+
+-whoami
+    retorna o nome do usuário que está sendo usado.
+
+- clear ou crtl + L 
+    Limpa o terminal
+
+
+
