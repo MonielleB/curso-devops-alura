@@ -1,0 +1,9 @@
+Aprendendo a versionar com git
+
+Sobre comandos:
+- git init 
+	sinaliza o git para monitorar essa pasta)
+- git status 
+	verifica a situação dos arquivos na pasta do projeto
+- git log
+	verifica os históricos de modificação (https://devhints.io/git-log)
