@@ -14,3 +14,9 @@ Sobre comandos:
 
 - git log -p
 	tras as modificações realizadas
+
+- git log --pretty="format:%H"
+	tras somente o Hash do commit
+
+- git init --bare
+	inicia um repositório como servidor apenas como versionador
