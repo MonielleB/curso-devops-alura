@@ -34,3 +34,10 @@ Comandos mais comuns no GIT:
 - git pull origin master
 
 - git checkout -b <nome branch a ser criada>
+
+- git checkout
+        para mudar de branch
+
+- git rebase
+
+- git merge
