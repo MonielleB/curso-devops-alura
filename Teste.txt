@@ -8,3 +8,6 @@ Sobre comandos:
 - git log
 	verifica os históricos de modificação 
 	Dicas para verificar diferentes logs: https://devhints.io/git-log
+
+- git log --oneline
+	tras as informações reduzidas de historico de commits em um linha
