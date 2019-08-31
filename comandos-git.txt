@@ -41,3 +41,5 @@ Comandos mais comuns no GIT:
 - git rebase
 
 - git merge
+
+- git branch
