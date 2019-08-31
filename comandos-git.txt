@@ -1,6 +1,6 @@
 Aprendendo a versionar com git
 
-Sobre comandos:
+Sobre comandos mais comuns no git:
 - git init 
 	sinaliza o git para monitorar essa pasta)
 - git status 
