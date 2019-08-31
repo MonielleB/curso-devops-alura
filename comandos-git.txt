@@ -1,6 +1,6 @@
 Aprendendo a versionar com git
 
-Sobre comandos:
+Comandos mais comuns no GIT:
 - git init 
 	sinaliza o git para monitorar essa pasta)
 - git status 
@@ -32,3 +32,5 @@ Sobre comandos:
 - git push origin <local do servidor>
 
 - git pull origin master
+
+- git checkout -b <nome branch a ser criada>
