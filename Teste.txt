@@ -30,3 +30,5 @@ Sobre comandos:
 - git clone <caminho a ser clonado>
 
 - git push origin <local do servidor>
+
+- git pull origin master
