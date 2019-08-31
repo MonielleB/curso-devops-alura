@@ -22,3 +22,7 @@ Sobre comandos:
 	inicia um repositório como servidor apenas como versionador
 
 - git remote add origin <local servidor>
+
+- git remote
+
+- git remote -v
