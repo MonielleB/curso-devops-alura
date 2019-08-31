@@ -20,3 +20,5 @@ Sobre comandos:
 
 - git init --bare
 	inicia um repositório como servidor apenas como versionador
+
+- git remote add origin <local servidor>
