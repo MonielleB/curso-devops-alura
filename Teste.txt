@@ -11,3 +11,6 @@ Sobre comandos:
 
 - git log --oneline
 	tras as informações reduzidas de historico de commits em um linha
+
+- git log -p
+	tras as modificações realizadas
