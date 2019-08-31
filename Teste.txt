@@ -6,4 +6,5 @@ Sobre comandos:
 - git status 
 	verifica a situação dos arquivos na pasta do projeto
 - git log
-	verifica os históricos de modificação (https://devhints.io/git-log)
+	verifica os históricos de modificação 
+	Dicas para verificar diferentes logs: https://devhints.io/git-log
