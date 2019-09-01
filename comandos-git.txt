@@ -33,23 +33,27 @@ Comandos mais comuns no GIT:
 
 - git pull origin master
 
-- git checkout -b <nome branch a ser criada>
-
-- git checkout
-        para mudar de branch
-
-- git rebase
-
-- git merge
-
-- git branch
-        para ver as branchs que possui
-
-- git branch <nome>
-        para criar uma branch nova
+# Sobre branchs
+- git checkout -b <nome branch>
+	cria e muda para a branch informada
 
 - git checkout <nome branch>
-        muda para a branch informada
+	muda para a branch informada
 
-- git checkout -b <nome branch>
-        cria e muda para a branch informada
+- git branch
+	para ver as branchs que possui
+
+- git branch <nome>
+	para criar uma branch nova
+
+# Sobre merge
+- git merge <branch que quer realizar o merge>
+
+# Sobre atualizar branchs
+- git rebase <branch>
+
+- git log --graph
+
+# Sobre revert de commit
+- git revert <hash do commit>
+
