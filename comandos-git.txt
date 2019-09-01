@@ -63,3 +63,5 @@ Comandos mais comuns no GIT:
 
 - git stash list
 
+- git stash pop
+	realiza merge com as alterações anteriormente guardadas
