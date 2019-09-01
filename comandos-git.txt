@@ -43,7 +43,7 @@ Comandos mais comuns no GIT:
 - git merge
 
 - git branch
-        para ver as branchs que vc possui
+        para ver as branchs que possui
 
 - git branch <nome>
         para criar uma branch nova
