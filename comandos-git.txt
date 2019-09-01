@@ -58,3 +58,8 @@ Comandos mais comuns no GIT:
 # Sobre revert de commit
 - git revert <hash do commit>
 
+# Sobre guardar alterações
+- git stash
+
+- git stash list
+
