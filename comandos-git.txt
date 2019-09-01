@@ -53,6 +53,7 @@ Comandos mais comuns no GIT:
 - git rebase <branch>
 
 - git log --graph
+	para ver a linha de desenvolvimento das branchs
 
 # Sobre revert de commit
 - git revert <hash do commit>
