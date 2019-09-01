@@ -1,6 +1,7 @@
 Aprendendo a versionar com git
 
 Comandos mais comuns no GIT:
+-----------------------------------
 - git init 
 	sinaliza o git para monitorar essa pasta)
 - git status 
@@ -34,6 +35,7 @@ Comandos mais comuns no GIT:
 - git pull origin master
 
 # Sobre branchs
+-----------------------------------
 - git checkout -b <nome branch>
 	cria e muda para a branch informada
 
@@ -47,6 +49,7 @@ Comandos mais comuns no GIT:
 	para criar uma branch nova
 
 # Sobre merge
+-----------------------------------
 - git merge <branch que quer realizar o merge>
 
 # Sobre atualizar branchs
@@ -56,12 +59,15 @@ Comandos mais comuns no GIT:
 	para ver a linha de desenvolvimento das branchs
 
 # Sobre revert de commit
+-----------------------------------
 - git revert <hash do commit>
 
 # Sobre guardar alterações
+-----------------------------------
 - git stash
 
 - git stash list
 
 - git stash pop
 	realiza merge com as alterações anteriormente guardadas
+
