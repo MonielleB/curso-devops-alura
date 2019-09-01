@@ -43,3 +43,13 @@ Comandos mais comuns no GIT:
 - git merge
 
 - git branch
+        para ver as branchs que vc possui
+
+- git branch <nome>
+        para criar uma branch nova
+
+- git checkout <nome branch>
+        muda para a branch informada
+
+- git checkout -b <nome branch>
+        cria e muda para a branch informada
