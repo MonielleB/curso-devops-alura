@@ -1,0 +1,40 @@
+Um Hypervisor, também conhecido como monitor de máquina virtual, é um processo que cria e executa máquinas virtuais (VMs). Um Hypervisor permite que um computador host suporte múltiplas VMs, compartilhando virtualmente seus recursos, como memória e processamento.
+
+Exemplos de Hypervisors são:
+
+Hyper-V
+vSphere
+Parallels
+VMware
+Virtualbox
+entre outros.
+Existem dois tipos de Hypervisors: Tipo 1 e Tipo 2.
+
+Os Hypervisors do Tipo 1 são chamados de "bare metal", pois são executados diretamente no hardware do host. Exemplos disso são Hyper-V e vSphere (entre vários outros).
+
+Os Hypervisors do Tipo 2 rodam como uma aplicação em cima do sistema operacional. Exemplos são o VirtualBox e VMware.
+
+Nesta aula, aprendemos que:
+
+VirtualBox, VMware, Hyper-V, entre outros, são Hypervisors
+Um Hypervisor emula o hardware do computador para criar e executar máquinas virtuais
+O Vagrant é uma ferramenta que controla o Hypervisor a partir de um arquivo simples, o Vagranfile
+O Vagrantfile define detalhes da máquina virtual, como o sistema operacional, a rede, software utilizado, etc
+O comando vagrant init <box> cria um Vagrantfile
+A box é baixada da internet e possui a imagem do sistema operacional, entre outras configurações
+Para inicializar e rodar a VM com Vagrant, usa-se o comando: vagrant up
+O comando vagrant status mostra detalhes sobre o status da máquina virtual
+Para se conectar com a máquina virtual, usamos a ferramenta SSH
+
+Nesta aula, aprendemos que:
+
+Existem 3 formas para configurar a rede:
+Forwarded Port
+Private Network
+Public Network
+Na configuração Forwarded Port, mapeamos uma porta do host para o guest, por exemplo:
+config.vm.network "forwarded_port", guest: 80, host: 8080,
+Na Private Network (static ou dhcp) é usado um endereço privado que não é acessível na sua rede pública (por exemplo, a rede empresarial)
+Na Public Network (static ou dhcp), usamos um endereço que faz parte da sua rede pública (por exemplo, da rede empresarial)
+Com o comando vagrant halt podemos parar a execução da máquina virtual
+O comando vagrant reload recarrega a configuração da máquina virtual

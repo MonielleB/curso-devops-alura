@@ -1,0 +1,28 @@
+vagrant version
+vagrant init hashicorp/precise64
+vagrant up							>	Cria e configura a maquina virtual 
+vagrant status						> 	Verificando status maquina virtual
+vagrant ssh
+vagrant ssh-config
+vagrant halt						>	Para a execução da máquina virtual
+vagrant reload						> 	Stop e Start da maquina virtual
+ipconfig
+vagrant destroy						>	Destroi a maquina virtual
+vagrant destroy -f					>	Força Destruição da maquina virtual
+
+Instalando o nginx na maquina virtual:
+
+incluir configuração para enxergar nginx e porta no vagrantfile
+
+vagrant status 						> 	Tem que estar rodando
+vagrant ssh							>	Acessar maquina virtual
+sudo apt-get update 				> 	Baixando pacotes linux de atualização
+sudo apt-get install -y nginx		> 	Instalando nginx
+netstat -lntp						> 	Verificando se o serviço está sendo ouvido
+curl http://localhost				>	Teste na linha de comando
+logout								> 	Sair da maquina virtual
+
+vagrant halt						> 	Derrubar maquina virtual
+vagrant up							> 	Subir maquina virtual
+no browser http://localhost:8089	> 	Fazer teste no browser
+
